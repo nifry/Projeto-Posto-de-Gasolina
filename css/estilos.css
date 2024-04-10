@@ -1,0 +1,42 @@
+body{
+background: url(/image/torreto.jpg) ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.central{
+height: 460px;
+width: 390px;
+background: rgba(128, 128, 128, 0.226);
+border-radius: 60px;
+display: flex;
+justify-content: center;
+align-items: center1;
+text-align: center;
+flex-direction: column;
+}
+
+.central p{
+font-size: 28px;
+color: rgb(0, 0, 0);
+margin: 5px;
+}
+
+
+
+.central input{
+height: 40px;
+border: 300px;
+margin: 15px;
+background: rgb(255, 255, 255);
+}
+
+.central button{
+margin: 5px;
+height: 50px;
+gap: 20px;
+border-radius: 20px;
+font-size: 20px;
+cursor: pointer;
+}
